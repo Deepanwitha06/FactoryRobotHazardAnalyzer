@@ -1,4 +1,4 @@
-package com.factory.robot;
+package com.factory.robot.mapper;
 
 import com.factory.robot.exception.RobotSafetyException;
 
@@ -27,3 +27,4 @@ public class MachineryRiskMapper {
                         "Error: Unsupported machinery state");
         }
     }
+}
